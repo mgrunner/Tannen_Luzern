@@ -43,4 +43,4 @@ Wo kann in weihnachtlicher Stimmung Glühwein getrunken werden?
 # Display Plot
 st.plotly_chart(fig, theme="streamlit", use_container_width=True)
 
-st.write("Quelle:https://opendata.swiss/de/dataset/baume-standort-und-informationen")
+st.write("Quelle: https://opendata.swiss/de/dataset/baume-standort-und-informationen")
