@@ -5,7 +5,7 @@ import geopandas as gpd
 import streamlit as st
 
 # Load the data
-data = json.load(open('gruenraum_baum_json/GRUENRAUM_BAUM.json'))
+data = json.load(open('GRUENRAUM_BAUM.json'))
 # Transform data
 trees = []
 for tree in data['features']:
