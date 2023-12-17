@@ -1,3 +1,5 @@
-plotly.express
+numpy
 pandas
+plotly
 geopandas
+streamlit
