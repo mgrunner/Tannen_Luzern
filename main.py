@@ -38,9 +38,9 @@ fig.update_layout(mapbox_style="open-street-map")
 st.header("Tannen in Luzern", divider="grey")
 st.write(f"""
 Wo kann in weihnachtlicher Stimmung Glühwein getrunken werden? 
-
-Quelle:https://opendata.swiss/de/dataset/baume-standort-und-informationen
 """)
 
 # Display Plot
 st.plotly_chart(fig, theme="streamlit", use_container_width=True)
+
+st.write("Quelle:https://opendata.swiss/de/dataset/baume-standort-und-informationen")
