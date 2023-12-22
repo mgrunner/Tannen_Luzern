@@ -31,7 +31,7 @@ df['lat_trans'] = df_geo.get_coordinates()['y']
 # Creating plot
 fig = px.scatter_mapbox(df[df['gattung']=='Picea'], lat='lat_trans', lon='lon_trans', color='art',
                         hover_name='art', size='baumhoehe',
-                        title='Standorte Tannen (Picea) in Luzern')
+                        title='Standorte Tannen (Picea) in Luzern', zoom=11)
 fig.update_layout(mapbox_style="open-street-map")
 
 # Creating Web App
